@@ -17,14 +17,14 @@ function contar() {
 		}
 		if (i < f){
 			for(var c = i; c <= f; c += p){
-				res.innerHTML += `${c} 👍 `
+				res.innerHTML += `${c} ☞ `
 			}
-			res.innerHTML += `😎`
+			res.innerHTML += `✔`
 		} else {
 			for(var c = i; c >= f; c -= p) {
-				res.innerHTML += `${c} 👍 `
+				res.innerHTML += `${c} ☞ `
 			}
-			res.innerHTML += `😎`
+			res.innerHTML += `✔`
 		}
 	}
 }
